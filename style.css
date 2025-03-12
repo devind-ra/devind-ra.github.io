@@ -31,15 +31,15 @@
 }
 
 body {
-  background-color:aliceblue;
+  background-color:rgb(222, 220, 196);
+  font-family: "Rock Salt", cursive;
   /* TODO: change the background colour */
-  color: #827397;
+  color: #6a00ff;
   font-size: 16px;
   line-height:normal;
 }
 h1, h2, h3 {
-  /* TODO: change the header font colour */
-  color: #2a0dac;
+  color: #241b4e;
 }
 
 h1 {
@@ -62,9 +62,8 @@ p {
 }
 
 a {
-  /* TODO: change the link colours */
   text-decoration: none;
-  color: #363062;
+  color: #c4186e;
 }
 
 a:hover {
@@ -73,11 +72,12 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
+  border: 10px solid #000;
 }
 
 .card-white {
   /* TODO: change the card background colour */
-  background-color: white;
+  background-color: rgb(154, 177, 227);
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0 0 0 / 10%);
   border-radius: 4px;
